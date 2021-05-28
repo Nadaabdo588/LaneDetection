@@ -1,7 +1,7 @@
 # LAneDetection
  Detecting road lanes using openCV and Segementation
 
-In the first python file, I'm trying to detect the lanes using open cv library by converting it to white and black detecting the edges with the lane area colored white.
+In the first python file, I'm trying to detect the lanes using open cv library by converting input video frames into white and black detecting the edges with the lane area colored white.
 Then I'm trying to get the region of interest by anding the result of the edge detection with a specific polygon colored white so I can get the desired region and rest of the image is black.
 After that using the HoughLine function of opencv I'm trying to draw the lines (lanes) of the region I got ,averaving each side, Then draw the averaged line of the original image. 
 
